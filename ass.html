@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <header>
+    <title>JavaScript Assignments</title>
+    <link rel="stylesheet" href="style.css">
+</header>
+</head>
+<body>
+    <h1>JavaScript Assignments</h1>
+
+    <!-- Fibonacci Sequence (qn1.js) -->
+    <div class="container">
+        <h2>Fibonacci Sequence up to 100</h2>
+        <div class="input-group">
+            <button onclick="generateFibonacci()">Generate Fibonacci Sequence</button>
+        </div>
+        <div id="fibResult" class="result"></div>
+    </div>
+
+    <!-- Power of Two (qn2.js) -->
+    <div class="container">
+        <h2>Check if Number is a Power of Two</h2>
+        <div class="input-group">
+            <input type="number" id="powerOfTwoInput" placeholder="Enter a number">
+            <button onclick="checkPowerOfTwo()">Check</button>
+        </div>
+        <div id="powerOfTwoResult" class="result"></div>
+    </div>
+
+    <!-- Capitalize Words (qn3.js) -->
+    <div class="container">
+        <h2>Capitalize Words</h2>
+        <div class="input-group">
+            <input type="text" id="capitalizeInput" placeholder="Enter a string">
+            <button onclick="capitalizeWords()">Capitalize</button>
+        </div>
+        <div id="capitalizeResult" class="result"></div>
+    </div>
+
+    <!-- Guessing Game (qn4.js) -->
+    <div class="container">
+        <h2>Guessing Game</h2>
+        <div id="gameOutput" class="result"></div>
+        <div class="input-group">
+            <button onclick="guessingGame()">Start Guessing Game</button>
+            <div id="gameActions"></div>
+        </div>
+    </div>
+
+    <!-- Shopping Cart (qn5.js) -->
+    <div class="container">
+        <h2>Shopping Cart Total</h2>
+        <div class="input-group">
+            <input type="text" id="shoppingCartInput" placeholder="Enter products as JSON e.g. '[{price: 20, quantity: 4}, ...]'">
+            <button onclick="calculateShoppingCart()">Calculate Total</button>
+        </div>
+        <div id="shoppingCartResult" class="result"></div>
+    </div>
+
+    <!-- Payroll Calculation (qn6.js) -->
+    <div class="container">
+        <h2>Payroll Calculation</h2>
+        <div class="input-group">
+            <input type="number" id="baseSalaryInput" placeholder="Enter base salary">
+            <input type="number" id="hoursWorkedInput" placeholder="Enter hours worked">
+            <button onclick="calculatePayroll()">Calculate Payroll</button>
+        </div>
+        <div id="payrollResult" class="result"></div>
+    </div>
+
+    <!-- Include external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
