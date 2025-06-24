@@ -1,9 +1,9 @@
 # 🌐 vibe with code javascript test
 
-![GitHub repo size](https://img.shields.io/github/repo-size/fortgames)
-![GitHub last commit](https://img.shields.io/github/last-commit/fortgames)
-![GitHub issues](https://img.shields.io/github/issues/fortgames)
-![GitHub stars](https://img.shields.io/github/stars/fortgames?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/fortgames/my-website)
+![GitHub last commit](https://img.shields.io/github/last-commit/your-username/my-website)
+![GitHub issues](https://img.shields.io/github/issues/your-username/my-website)
+![GitHub stars](https://img.shields.io/github/stars/your-username/my-website?style=social)
 
 > JavaScript test.
 
